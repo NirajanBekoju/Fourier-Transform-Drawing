@@ -3,7 +3,15 @@
 Note : Detail Information can be found on Proposal and Report.
 
 ## Abstract
-Drawing any closed path is possible with epicycles using Discrete Fourier Transform. In this project, we have two methods to draw an object with epicycles. 
+Fourier series is an expansion of a periodic function in terms of an infinite sum of sines and cosines. Fourier series make use of the orthogonality relationships of the sine and cosine functions.  With appropriate weights, one cycle or period of the summation can be made to approximate an arbitrary function in that interval. 
+
+In mathematics, the discrete-time fourier transform (DTFT) is a form of Fourier analysis that is applicable to the sequence of values. The DTFT is often used to analyze samples of a continuous function. The term discrete-time refers to the fact that the transform operates on discrete data, often samples whose interval has units of time.
+
+In this program, we are going to use discrete fourier transform in order to generate the fourier series of the given discrete  coordinate data. 
+In mathematics, the discrete Fourier Transform (DFT) converts a finite sequence of equally-spaced samples of function into a same-length sequence of equal-spaced samples of the discrete-time fourier transform(DTFT), which is a complex valued function of frequency.
+
+
+The discrete-time fourier transform is an example of a fourier series. In this project, we have two methods to draw an object with epicycles. 
 
 ## First Method
 First one is with Canvas Drawing in which the user is given a canvas and he/she is able to draw anything in the given canvas. When the drawing is completed, the program redraws the same path with epicycles. 
