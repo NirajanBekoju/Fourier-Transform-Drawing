@@ -1,6 +1,6 @@
 # Fourier Transform Drawing
 
-Note : Detail Information can be found on Proposal and Report.
+**Note : Detail Information can be found on Proposal and Report.**
 
 ## Abstract
 Fourier series is an expansion of a periodic function in terms of an infinite sum of sines and cosines. Fourier series make use of the orthogonality relationships of the sine and cosine functions.  With appropriate weights, one cycle or period of the summation can be made to approximate an arbitrary function in that interval. 
@@ -23,3 +23,27 @@ First one is with Canvas Drawing in which the user is given a canvas and he/she 
 Second method is with binary images in which the program detects the object in the given Image(White Color represents object and Black Color represents background). Then the coordinate of the given image is extracted from the image whose path is retraced by this program with the help of Discrete Fourier Transform.
 
 ![sasuke_itachi](https://user-images.githubusercontent.com/56423554/125976641-8d230952-22cd-406f-9ab6-0cfe599f1e3c.png)
+
+## To run Locally
+To run locally, you must have installed g++ Compiler (Used Version : 9.3.0), SFML library, Python3. I have used VS Code IDE and its extension Easy C++ Project to build this project.
+
+** Clone the repository **
+```
+git clone https://github.com/NirajanBekoju/Fourier-Transform-Drawing
+```
+
+** Create a virtual environment and activate it **
+```
+virtualenv venv
+source ./venv/bin/activate
+```
+
+** Install all requirements from requirements.txt **
+```
+pip install -r requirements.txt
+```
+
+
+
+
+
