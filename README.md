@@ -27,18 +27,18 @@ Second method is with binary images in which the program detects the object in t
 ## To run Locally
 To run locally, you must have installed g++ Compiler (Used Version : 9.3.0), SFML library, Python3. I have used VS Code IDE and its extension Easy C++ Project to build this project.
 
-** Clone the repository **
+**Clone the repository**
 ```
 git clone https://github.com/NirajanBekoju/Fourier-Transform-Drawing
 ```
 
-** Create a virtual environment and activate it **
+**Create a virtual environment and activate it**
 ```
 virtualenv venv
 source ./venv/bin/activate
 ```
 
-** Install all requirements from requirements.txt **
+**Install all requirements from requirements.txt**
 ```
 pip install -r requirements.txt
 ```
